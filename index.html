@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<title>Obras 2014 - 2017</title>
+		<!-- Bootstrap core CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		<link href="css/style.css" rel="stylesheet">
+    	<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.51.0/mapbox-gl.css' rel='stylesheet' />
+	</head>
+	<body id="page-top">
+		<!-- Navigation -->
+		<nav class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header page-scroll">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand page-scroll" href="http://www.dao.gob.mx/"><img src="images/ao.png" alt="Alcaldía Álvaro Obregón" style="height: 120px"></a>
+				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="hidden">
+							<a href="#page-top"></a>
+						</li>
+						
+						<li>
+							<a class="page-scroll" href="#portfolio">Demanda Ciudadana 2018 - 2021</a>
+						</li>
+					</ul>
+				</div>
+				<!-- /.navbar-collapse -->
+			</div>
+			<!-- /.container-fluid -->
+		</nav>
+		
+		<section id="portfolio">
+			<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<div class="section-title">
+						<h3>Demanda Ciudadana | Alcaldía Álvaro Obregón</h3>
+						<p style="color: #990000; font-weight: bold">2018 - 2021</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row row-0-gutter">
+				<div class="col-md-12 col-0-gutter">
+					<div class= "filters">
+						<form >
+						<div class="row">	
+							<div class="col-md-6">
+									<label for="direccion-gral-select">Dirección general: </label>
+									<select class="form-control" id="direccion-gral-select">
+										<option selected>Selecciona una opción</option>
+									</select>
+
+							</div>
+							<div class="col-md-6">
+									<label for="demanda-select">Tipo de demanda: </label>
+									<select class="form-control" id="demanda-select">
+										<option selected value="default">Selecciona una opción</option>
+									</select>
+							
+							</div>
+						</div>
+					</form>
+					</div>
+					<div class="ot-portfolio-item" style="height: 600px;">
+						<div id="map"></div>
+					</div>
+				</div>
+			</div>
+
+			</div><!-- container -->
+		</section>
+
+		<p id="back-top">
+			<a href="#top"><i class="fa fa-angle-up"></i></a>
+		</p>
+		<footer>
+			<div class="container text-center">
+				<p></p>
+			</div>
+		</footer>
+
+		<div class="modal fade" id="info-modal" tabindex="-1" role="dialog" aria-labelledby="Modal-label-4">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 style="color: #990000; font-weight: bold" class="modal-title" id="info-modal">Demanda Ciudadana</h4>
+					</div>
+					<div class="modal-body">
+						<table id="info-table" class="table" style="padding-top: 15px;">
+							<tbody>	 
+							</tbody>
+						</table>
+						<div id="info-img" style="text-align:center;padding-bottom:30px;"></div>
+					</div>
+					<div class="modal-footer">
+						<p></p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.51.0/mapbox-gl.js'></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/SmoothScroll.js"></script>
+		<script src="js/theme-scripts.js"></script>
+		
+		<script type="text/javascript" src="js/data.js"></script>
+		<script  defer type="text/javascript" src="js/ao.js"></script>
+	</body>
+</html>
